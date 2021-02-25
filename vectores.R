@@ -17,3 +17,9 @@ print(vector.cinco)
 #?
 vector.seis = c(2,10,15,20,T,F,"hola",100)
 print(vector.seis)
+
+meses = c('Enero','Febrero','Marzo','Abril')
+crecimiento.ramas = c(10,12,5,9)
+
+names(crecimiento.ramas) <-  meses
+print(crecimiento.ramas)
